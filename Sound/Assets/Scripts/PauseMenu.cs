@@ -51,7 +51,6 @@ public class PauseMenu : MonoBehaviour
         player.allowed = true;
         Time.timeScale = 1.0f;
     }
-
     public void StartTime()
     {
         Time.timeScale = 1.0f;

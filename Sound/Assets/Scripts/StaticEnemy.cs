@@ -44,6 +44,5 @@ public class StaticEnemy : MonoBehaviour
         audioMixer.SetFloat("DistortionLevel", 0.8f);
         yield return new WaitForSeconds(0.4f);
         audioMixer.SetFloat("DistortionLevel", 0f);
-        
     }
 }

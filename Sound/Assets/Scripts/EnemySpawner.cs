@@ -10,7 +10,6 @@ public class EnemySpawner : MonoBehaviour
     {
         StartCoroutine(SpawnEnemies());
     }
-
     private IEnumerator SpawnEnemies()
     {
 
